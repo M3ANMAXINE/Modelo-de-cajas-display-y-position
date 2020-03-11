@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Ejercicio 1</title>
+<title>Ejercicio 3</title>
 <style media="screen" type="text/css">
 body {
     margin: 0;
@@ -11,45 +11,98 @@ body {
 .main {
     margin: 5px;
     }
-
-.box {
+.boxx{
+    float: left;
+    margin: 5px; 
+    position: relative;
     width: 48%;
+    height: 400px;
+    }
+.box {
+    width: 600px;
+    height: 350px;
     box-sizing: content-box;
     Display:inline-block;
     margin: 5px; 
     border: 1px solid black;
-     }
-
- 
-.japan{
-    width: 48%px;
-    height: 300px;
-    background-color: white;
-    box-sizing: content-box;
-   
-
-}
- .japan2{
-    width: 48%;
-    height: 150px;
-    background-color: red;
-    border-radius: 50%;
-    box-sizing: content-box;
     position: relative;
-    box-sizing: content-box;
-    left: 250px;
-    bottom: 100px;
-    border-color: black;
-             }
-
-.japan3{
-    background-color:red;
-    z-index: 1;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    }
+p{
+    margin: 5px;
+ }
+.espana{
+    background-color: yellow;
 }
-   
+.espana1{
+    background-color: red;
+    position: absolute;
+    top: 0;
+    height: 100px;
+    width: 100%;
+}
+.espana2{
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    }
+.dinamarca{
+    background-color: red;
+}
+.dinamarca1{
+    background-color: white;
+    position: absolute;
+    top: 150px;
+    height: 50px;
+    width: 600px;
+}
+.dinamarca2{
+    background-color: white;
+    position: absolute;
+    left:150px;
+    height: 350px;
+    width: 50px;
+}
+.dubai{
+    background-color: red;
+    }
+.dubai1{
+    background-color: green;
+    position: absolute;
+    width: 490px;
+    height: 118px;
+    left: 110px;
+    }
+.dubai2{
+    background-color: white;
+    position: absolute;
+    width: 490px;
+    height: 118px;
+    left: 110px;
+    top: 118px;
+    }
+.dubai3{
+    background-color:black;
+    position: absolute;
+    width: 490px;
+    height: 118px;
+    left: 110px;
+    top: 233px;
+    }
+.japan{
+    background-color: white;
+    }
+.japan2{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background-color: red;
+        position: absolute;
+        left: 200px;
+        top: 100px;             
+    }
+
 </style>
 
 </head>
@@ -58,18 +111,44 @@ body {
 
 <section class="main">
 
-<div class="box japan ">
-   
+<div class="boxx"> 
+    <div class="box espana">
+    <div class="espana1">
+    </div>
+    <div class="espana2">
+    </div>
+    </div>
+    <p>España</p>
+</div>  
+
+<div class="boxx"> 
+    <div class="box dinamarca">
+    <div class="dinamarca1">
+    </div>
+    <div class="dinamarca2">
+    </div>
+    </div>
+    <p>Dinamarca</p>
 </div>
 
-<div class="box japan">
-</div>
+<div class="boxx"> 
+    <div class="box dubai">
+    <div class="dubai1">
+    </div>
+    <div class="dubai2">
+    </div>
+    <div class="dubai3">
+    </div>
+    </div>
+    <p>Emiratos Árabes</p>
+ </div>
 
-<div class="box japan ">
-</div>
-
-<div class="box japan  ">
-     
+ <div class="boxx"> 
+    <div class="box japan">
+    <div class="japan2">
+    </div>
+    </div>
+    <p>Japón</p>
 </div>
 
 
